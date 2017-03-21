@@ -8,8 +8,8 @@ public class Contrato extends Clientes {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Contrato(String numContrato) {
-		super(numContrato);
+	public Contrato(String numContrato, Planes[] plan)  {
+		super(numContrato, plan);
 		// TODO Auto-generated constructor stub
 	}
 

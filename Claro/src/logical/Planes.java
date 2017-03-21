@@ -2,22 +2,22 @@ package logical;
 
 public class Planes {
 
-	private String planesInternet;
+	private String planes; //puede ser de internet, de telefono o cable
 
 	public Planes() {
 		// TODO Auto-generated constructor stub
 	}
-	public Planes(String planesInternet) {
+	public Planes(String planes) {
 		super();
-		this.planesInternet = planesInternet;
+		this.planes = planes;
 	}
 
-	public String getPlanesInternet() {
-		return planesInternet;
+	public String getPlanes() {
+		return planes;
 	}
 
-	public void setPlanesInternet(String planesInternet) {
-		this.planesInternet = planesInternet;
+	public void setPlanes(String planes) {
+		this.planes = planes;
 	}
 
 }
