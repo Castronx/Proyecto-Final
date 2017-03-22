@@ -2,8 +2,6 @@ package logical;
 
 public abstract class Persona {
 	
-
-
 	private String nombre;
 	private int edad;
 	private String nacionalidad;

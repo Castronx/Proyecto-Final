@@ -2,8 +2,8 @@ package logical;
 
 public class Empleado extends Persona {
 	
-	
 	private float sueldo;
+	
 
 	public Empleado() {
 		// TODO Auto-generated constructor stub
